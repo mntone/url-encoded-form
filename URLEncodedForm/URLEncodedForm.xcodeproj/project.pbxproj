@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBA7F92521D85D5D000013C5 /* URLEncodedForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA7F91B21D85D5D000013C5 /* URLEncodedForm.framework */; };
+		EBA7F92C21D85D5D000013C5 /* URLEncodedForm.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA7F91E21D85D5D000013C5 /* URLEncodedForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBA7F93E21D85D82000013C5 /* URLEncodedFormSerializerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F93B21D85D82000013C5 /* URLEncodedFormSerializerTests.swift */; };
+		EBA7F93F21D85D82000013C5 /* URLEncodedFormCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F93C21D85D82000013C5 /* URLEncodedFormCodableTests.swift */; };
+		EBA7F94021D85D82000013C5 /* URLEncodedFormParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F93D21D85D82000013C5 /* URLEncodedFormParserTests.swift */; };
+		EBA7F94521D85F85000013C5 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F94321D85F85000013C5 /* URLEncodedFormEncoder.swift */; };
+		EBA7F94621D85F85000013C5 /* URLEncodedFormDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F94421D85F85000013C5 /* URLEncodedFormDecoder.swift */; };
+		EBA7F94C21D85F9D000013C5 /* URLEncodedFormSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F94821D85F9D000013C5 /* URLEncodedFormSerializer.swift */; };
+		EBA7F94D21D85F9D000013C5 /* URLEncodedFormDataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F94921D85F9D000013C5 /* URLEncodedFormDataConvertible.swift */; };
+		EBA7F94E21D85F9D000013C5 /* URLEncodedFormParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F94A21D85F9D000013C5 /* URLEncodedFormParser.swift */; };
+		EBA7F94F21D85F9D000013C5 /* URLEncodedFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F94B21D85F9D000013C5 /* URLEncodedFormData.swift */; };
+		EBA7F95421D85FC9000013C5 /* URLEncodedFormError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F95221D85FC9000013C5 /* URLEncodedFormError.swift */; };
+		EBA7F95721D860A2000013C5 /* Byte+Alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F95621D860A2000013C5 /* Byte+Alphabet.swift */; };
+		EBA7F95921D8619A000013C5 /* Byte+ControlCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F95821D8619A000013C5 /* Byte+ControlCharacters.swift */; };
+		EBA7F95B21D861E2000013C5 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F95A21D861E2000013C5 /* Aliases.swift */; };
+		EBA7F95E21D862AE000013C5 /* NestedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F95D21D862AE000013C5 /* NestedData.swift */; };
+		EBA7F96021D862CF000013C5 /* LosslessDataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F95F21D862CF000013C5 /* LosslessDataConvertible.swift */; };
+		EBA7F96221D862F0000013C5 /* BasicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F96121D862F0000013C5 /* BasicKey.swift */; };
+		EBA7F96421D8632F000013C5 /* DataCoders.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F96321D8632F000013C5 /* DataCoders.swift */; };
+		EBA7F96621D86363000013C5 /* String+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F96521D86363000013C5 /* String+Utilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBA7F92621D85D5D000013C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBA7F91221D85D5D000013C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBA7F91A21D85D5D000013C5;
+			remoteInfo = URLEncodedForm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBA7F91B21D85D5D000013C5 /* URLEncodedForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLEncodedForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA7F91E21D85D5D000013C5 /* URLEncodedForm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLEncodedForm.h; sourceTree = "<group>"; };
+		EBA7F91F21D85D5D000013C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBA7F92421D85D5D000013C5 /* URLEncodedFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLEncodedFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA7F92B21D85D5D000013C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBA7F93B21D85D82000013C5 /* URLEncodedFormSerializerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLEncodedFormSerializerTests.swift; sourceTree = "<group>"; };
+		EBA7F93C21D85D82000013C5 /* URLEncodedFormCodableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLEncodedFormCodableTests.swift; sourceTree = "<group>"; };
+		EBA7F93D21D85D82000013C5 /* URLEncodedFormParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLEncodedFormParserTests.swift; sourceTree = "<group>"; };
+		EBA7F94321D85F85000013C5 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = URLEncodedForm/Codable/URLEncodedFormEncoder.swift; sourceTree = SOURCE_ROOT; };
+		EBA7F94421D85F85000013C5 /* URLEncodedFormDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLEncodedFormDecoder.swift; path = URLEncodedForm/Codable/URLEncodedFormDecoder.swift; sourceTree = SOURCE_ROOT; };
+		EBA7F94821D85F9D000013C5 /* URLEncodedFormSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLEncodedFormSerializer.swift; path = URLEncodedForm/Data/URLEncodedFormSerializer.swift; sourceTree = SOURCE_ROOT; };
+		EBA7F94921D85F9D000013C5 /* URLEncodedFormDataConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLEncodedFormDataConvertible.swift; path = URLEncodedForm/Data/URLEncodedFormDataConvertible.swift; sourceTree = SOURCE_ROOT; };
+		EBA7F94A21D85F9D000013C5 /* URLEncodedFormParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLEncodedFormParser.swift; path = URLEncodedForm/Data/URLEncodedFormParser.swift; sourceTree = SOURCE_ROOT; };
+		EBA7F94B21D85F9D000013C5 /* URLEncodedFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLEncodedFormData.swift; path = URLEncodedForm/Data/URLEncodedFormData.swift; sourceTree = SOURCE_ROOT; };
+		EBA7F95221D85FC9000013C5 /* URLEncodedFormError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLEncodedFormError.swift; sourceTree = "<group>"; };
+		EBA7F95621D860A2000013C5 /* Byte+Alphabet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Byte+Alphabet.swift"; sourceTree = "<group>"; };
+		EBA7F95821D8619A000013C5 /* Byte+ControlCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Byte+ControlCharacters.swift"; sourceTree = "<group>"; };
+		EBA7F95A21D861E2000013C5 /* Aliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aliases.swift; sourceTree = "<group>"; };
+		EBA7F95D21D862AE000013C5 /* NestedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedData.swift; sourceTree = "<group>"; };
+		EBA7F95F21D862CF000013C5 /* LosslessDataConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LosslessDataConvertible.swift; sourceTree = "<group>"; };
+		EBA7F96121D862F0000013C5 /* BasicKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicKey.swift; sourceTree = "<group>"; };
+		EBA7F96321D8632F000013C5 /* DataCoders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCoders.swift; sourceTree = "<group>"; };
+		EBA7F96521D86363000013C5 /* String+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utilities.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBA7F91821D85D5D000013C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA7F92121D85D5D000013C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA7F92521D85D5D000013C5 /* URLEncodedForm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBA7F91121D85D5D000013C5 = {
+			isa = PBXGroup;
+			children = (
+				EBA7F91D21D85D5D000013C5 /* URLEncodedForm */,
+				EBA7F92821D85D5D000013C5 /* URLEncodedFormTests */,
+				EBA7F91C21D85D5D000013C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBA7F91C21D85D5D000013C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBA7F91B21D85D5D000013C5 /* URLEncodedForm.framework */,
+				EBA7F92421D85D5D000013C5 /* URLEncodedFormTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBA7F91D21D85D5D000013C5 /* URLEncodedForm */ = {
+			isa = PBXGroup;
+			children = (
+				EBA7F95521D86098000013C5 /* Bits */,
+				EBA7F94221D85F76000013C5 /* Codable */,
+				EBA7F95C21D8629E000013C5 /* Core */,
+				EBA7F94721D85F91000013C5 /* Data */,
+				EBA7F95021D85FB2000013C5 /* Utilities */,
+				EBA7F91E21D85D5D000013C5 /* URLEncodedForm.h */,
+				EBA7F91F21D85D5D000013C5 /* Info.plist */,
+			);
+			path = URLEncodedForm;
+			sourceTree = "<group>";
+		};
+		EBA7F92821D85D5D000013C5 /* URLEncodedFormTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBA7F93C21D85D82000013C5 /* URLEncodedFormCodableTests.swift */,
+				EBA7F93D21D85D82000013C5 /* URLEncodedFormParserTests.swift */,
+				EBA7F93B21D85D82000013C5 /* URLEncodedFormSerializerTests.swift */,
+				EBA7F92B21D85D5D000013C5 /* Info.plist */,
+			);
+			path = URLEncodedFormTests;
+			sourceTree = "<group>";
+		};
+		EBA7F94221D85F76000013C5 /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+				EBA7F94421D85F85000013C5 /* URLEncodedFormDecoder.swift */,
+				EBA7F94321D85F85000013C5 /* URLEncodedFormEncoder.swift */,
+			);
+			path = Codable;
+			sourceTree = "<group>";
+		};
+		EBA7F94721D85F91000013C5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EBA7F94B21D85F9D000013C5 /* URLEncodedFormData.swift */,
+				EBA7F94921D85F9D000013C5 /* URLEncodedFormDataConvertible.swift */,
+				EBA7F94A21D85F9D000013C5 /* URLEncodedFormParser.swift */,
+				EBA7F94821D85F9D000013C5 /* URLEncodedFormSerializer.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EBA7F95021D85FB2000013C5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EBA7F95221D85FC9000013C5 /* URLEncodedFormError.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EBA7F95521D86098000013C5 /* Bits */ = {
+			isa = PBXGroup;
+			children = (
+				EBA7F95A21D861E2000013C5 /* Aliases.swift */,
+				EBA7F95621D860A2000013C5 /* Byte+Alphabet.swift */,
+				EBA7F95821D8619A000013C5 /* Byte+ControlCharacters.swift */,
+			);
+			path = Bits;
+			sourceTree = "<group>";
+		};
+		EBA7F95C21D8629E000013C5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EBA7F96121D862F0000013C5 /* BasicKey.swift */,
+				EBA7F96321D8632F000013C5 /* DataCoders.swift */,
+				EBA7F95F21D862CF000013C5 /* LosslessDataConvertible.swift */,
+				EBA7F95D21D862AE000013C5 /* NestedData.swift */,
+				EBA7F96521D86363000013C5 /* String+Utilities.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EBA7F91621D85D5D000013C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA7F92C21D85D5D000013C5 /* URLEncodedForm.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EBA7F91A21D85D5D000013C5 /* URLEncodedForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA7F92F21D85D5D000013C5 /* Build configuration list for PBXNativeTarget "URLEncodedForm" */;
+			buildPhases = (
+				EBA7F91621D85D5D000013C5 /* Headers */,
+				EBA7F91721D85D5D000013C5 /* Sources */,
+				EBA7F91821D85D5D000013C5 /* Frameworks */,
+				EBA7F91921D85D5D000013C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URLEncodedForm;
+			productName = URLEncodedForm;
+			productReference = EBA7F91B21D85D5D000013C5 /* URLEncodedForm.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBA7F92321D85D5D000013C5 /* URLEncodedFormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA7F93221D85D5D000013C5 /* Build configuration list for PBXNativeTarget "URLEncodedFormTests" */;
+			buildPhases = (
+				EBA7F92021D85D5D000013C5 /* Sources */,
+				EBA7F92121D85D5D000013C5 /* Frameworks */,
+				EBA7F92221D85D5D000013C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBA7F92721D85D5D000013C5 /* PBXTargetDependency */,
+			);
+			name = URLEncodedFormTests;
+			productName = URLEncodedFormTests;
+			productReference = EBA7F92421D85D5D000013C5 /* URLEncodedFormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBA7F91221D85D5D000013C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = mntone;
+				TargetAttributes = {
+					EBA7F91A21D85D5D000013C5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EBA7F92321D85D5D000013C5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = EBA7F91521D85D5D000013C5 /* Build configuration list for PBXProject "URLEncodedForm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EBA7F91121D85D5D000013C5;
+			productRefGroup = EBA7F91C21D85D5D000013C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBA7F91A21D85D5D000013C5 /* URLEncodedForm */,
+				EBA7F92321D85D5D000013C5 /* URLEncodedFormTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBA7F91921D85D5D000013C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA7F92221D85D5D000013C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBA7F91721D85D5D000013C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA7F95E21D862AE000013C5 /* NestedData.swift in Sources */,
+				EBA7F95B21D861E2000013C5 /* Aliases.swift in Sources */,
+				EBA7F94C21D85F9D000013C5 /* URLEncodedFormSerializer.swift in Sources */,
+				EBA7F96221D862F0000013C5 /* BasicKey.swift in Sources */,
+				EBA7F96021D862CF000013C5 /* LosslessDataConvertible.swift in Sources */,
+				EBA7F95921D8619A000013C5 /* Byte+ControlCharacters.swift in Sources */,
+				EBA7F94521D85F85000013C5 /* URLEncodedFormEncoder.swift in Sources */,
+				EBA7F94D21D85F9D000013C5 /* URLEncodedFormDataConvertible.swift in Sources */,
+				EBA7F94621D85F85000013C5 /* URLEncodedFormDecoder.swift in Sources */,
+				EBA7F94F21D85F9D000013C5 /* URLEncodedFormData.swift in Sources */,
+				EBA7F96621D86363000013C5 /* String+Utilities.swift in Sources */,
+				EBA7F94E21D85F9D000013C5 /* URLEncodedFormParser.swift in Sources */,
+				EBA7F96421D8632F000013C5 /* DataCoders.swift in Sources */,
+				EBA7F95721D860A2000013C5 /* Byte+Alphabet.swift in Sources */,
+				EBA7F95421D85FC9000013C5 /* URLEncodedFormError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA7F92021D85D5D000013C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA7F93E21D85D82000013C5 /* URLEncodedFormSerializerTests.swift in Sources */,
+				EBA7F93F21D85D82000013C5 /* URLEncodedFormCodableTests.swift in Sources */,
+				EBA7F94021D85D82000013C5 /* URLEncodedFormParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBA7F92721D85D5D000013C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBA7F91A21D85D5D000013C5 /* URLEncodedForm */;
+			targetProxy = EBA7F92621D85D5D000013C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EBA7F92D21D85D5D000013C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EBA7F92E21D85D5D000013C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EBA7F93021D85D5D000013C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G77ZW9XGX2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = URLEncodedForm/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mntone.URLEncodedForm;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBA7F93121D85D5D000013C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G77ZW9XGX2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = URLEncodedForm/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mntone.URLEncodedForm;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBA7F93321D85D5D000013C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G77ZW9XGX2;
+				INFOPLIST_FILE = URLEncodedFormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mntone.URLEncodedFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBA7F93421D85D5D000013C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G77ZW9XGX2;
+				INFOPLIST_FILE = URLEncodedFormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mntone.URLEncodedFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBA7F91521D85D5D000013C5 /* Build configuration list for PBXProject "URLEncodedForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA7F92D21D85D5D000013C5 /* Debug */,
+				EBA7F92E21D85D5D000013C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBA7F92F21D85D5D000013C5 /* Build configuration list for PBXNativeTarget "URLEncodedForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA7F93021D85D5D000013C5 /* Debug */,
+				EBA7F93121D85D5D000013C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBA7F93221D85D5D000013C5 /* Build configuration list for PBXNativeTarget "URLEncodedFormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA7F93321D85D5D000013C5 /* Debug */,
+				EBA7F93421D85D5D000013C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBA7F91221D85D5D000013C5 /* Project object */;
+}
