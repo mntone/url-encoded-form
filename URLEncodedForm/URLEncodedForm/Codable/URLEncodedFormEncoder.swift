@@ -1,3 +1,5 @@
+import struct Foundation.Data
+
 /// Encodes `Encodable` instances to `application/x-www-form-urlencoded` data.
 ///
 ///     print(user) /// User

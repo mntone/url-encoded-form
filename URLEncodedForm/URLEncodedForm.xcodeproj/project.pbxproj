@@ -27,6 +27,25 @@
 		EBA7F96221D862F0000013C5 /* BasicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F96121D862F0000013C5 /* BasicKey.swift */; };
 		EBA7F96421D8632F000013C5 /* DataCoders.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F96321D8632F000013C5 /* DataCoders.swift */; };
 		EBA7F96621D86363000013C5 /* String+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F96521D86363000013C5 /* String+Utilities.swift */; };
+		EBCB0BBE22FEC12E0091E666 /* URLEncodedForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCB0BAD22FEC07E0091E666 /* URLEncodedForm.framework */; };
+		EBCB0BC422FEC1410091E666 /* URLEncodedFormCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F93C21D85D82000013C5 /* URLEncodedFormCodableTests.swift */; };
+		EBCB0BC522FEC1410091E666 /* URLEncodedFormParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F93D21D85D82000013C5 /* URLEncodedFormParserTests.swift */; };
+		EBCB0BC622FEC1410091E666 /* URLEncodedFormSerializerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F93B21D85D82000013C5 /* URLEncodedFormSerializerTests.swift */; };
+		EBCB0BC722FEC1800091E666 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F95A21D861E2000013C5 /* Aliases.swift */; };
+		EBCB0BC822FEC1800091E666 /* Byte+Alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F95621D860A2000013C5 /* Byte+Alphabet.swift */; };
+		EBCB0BC922FEC1800091E666 /* Byte+ControlCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F95821D8619A000013C5 /* Byte+ControlCharacters.swift */; };
+		EBCB0BCA22FEC1830091E666 /* URLEncodedFormDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F94421D85F85000013C5 /* URLEncodedFormDecoder.swift */; };
+		EBCB0BCB22FEC1830091E666 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F94321D85F85000013C5 /* URLEncodedFormEncoder.swift */; };
+		EBCB0BCC22FEC1870091E666 /* BasicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F96121D862F0000013C5 /* BasicKey.swift */; };
+		EBCB0BCD22FEC1870091E666 /* DataCoders.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F96321D8632F000013C5 /* DataCoders.swift */; };
+		EBCB0BCE22FEC1870091E666 /* LosslessDataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F95F21D862CF000013C5 /* LosslessDataConvertible.swift */; };
+		EBCB0BCF22FEC1870091E666 /* NestedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F95D21D862AE000013C5 /* NestedData.swift */; };
+		EBCB0BD022FEC1870091E666 /* String+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F96521D86363000013C5 /* String+Utilities.swift */; };
+		EBCB0BD122FEC1890091E666 /* URLEncodedFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F94B21D85F9D000013C5 /* URLEncodedFormData.swift */; };
+		EBCB0BD222FEC1890091E666 /* URLEncodedFormDataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F94921D85F9D000013C5 /* URLEncodedFormDataConvertible.swift */; };
+		EBCB0BD322FEC1890091E666 /* URLEncodedFormParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F94A21D85F9D000013C5 /* URLEncodedFormParser.swift */; };
+		EBCB0BD422FEC1890091E666 /* URLEncodedFormSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F94821D85F9D000013C5 /* URLEncodedFormSerializer.swift */; };
+		EBCB0BD522FEC1A20091E666 /* URLEncodedFormError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7F95221D85FC9000013C5 /* URLEncodedFormError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +55,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = EBA7F91A21D85D5D000013C5;
 			remoteInfo = URLEncodedForm;
+		};
+		EBCB0BBF22FEC12E0091E666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBA7F91221D85D5D000013C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBCB0BAC22FEC07E0091E666;
+			remoteInfo = "URLEncodedForm-macOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -63,6 +89,9 @@
 		EBA7F96121D862F0000013C5 /* BasicKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicKey.swift; sourceTree = "<group>"; };
 		EBA7F96321D8632F000013C5 /* DataCoders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCoders.swift; sourceTree = "<group>"; };
 		EBA7F96521D86363000013C5 /* String+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utilities.swift"; sourceTree = "<group>"; };
+		EBCB0BAD22FEC07E0091E666 /* URLEncodedForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLEncodedForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBCB0BAF22FEC07E0091E666 /* URLEncodedForm_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLEncodedForm_macOS.h; sourceTree = "<group>"; };
+		EBCB0BB922FEC12E0091E666 /* URLEncodedFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLEncodedFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +107,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBA7F92521D85D5D000013C5 /* URLEncodedForm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCB0BAA22FEC07E0091E666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCB0BB622FEC12E0091E666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCB0BBE22FEC12E0091E666 /* URLEncodedForm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +142,8 @@
 			children = (
 				EBA7F91B21D85D5D000013C5 /* URLEncodedForm.framework */,
 				EBA7F92421D85D5D000013C5 /* URLEncodedFormTests.xctest */,
+				EBCB0BAD22FEC07E0091E666 /* URLEncodedForm.framework */,
+				EBCB0BB922FEC12E0091E666 /* URLEncodedFormTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +157,7 @@
 				EBA7F94721D85F91000013C5 /* Data */,
 				EBA7F95021D85FB2000013C5 /* Utilities */,
 				EBA7F91E21D85D5D000013C5 /* URLEncodedForm.h */,
+				EBCB0BAF22FEC07E0091E666 /* URLEncodedForm_macOS.h */,
 				EBA7F91F21D85D5D000013C5 /* Info.plist */,
 			);
 			path = URLEncodedForm;
@@ -188,6 +235,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EBCB0BA822FEC07E0091E666 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -227,13 +281,49 @@
 			productReference = EBA7F92421D85D5D000013C5 /* URLEncodedFormTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		EBCB0BAC22FEC07E0091E666 /* URLEncodedForm-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBCB0BB422FEC07E0091E666 /* Build configuration list for PBXNativeTarget "URLEncodedForm-macOS" */;
+			buildPhases = (
+				EBCB0BA822FEC07E0091E666 /* Headers */,
+				EBCB0BA922FEC07E0091E666 /* Sources */,
+				EBCB0BAA22FEC07E0091E666 /* Frameworks */,
+				EBCB0BAB22FEC07E0091E666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "URLEncodedForm-macOS";
+			productName = "URLEncodedForm-macOS";
+			productReference = EBCB0BAD22FEC07E0091E666 /* URLEncodedForm.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBCB0BB822FEC12E0091E666 /* URLEncodedFormTests-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBCB0BC122FEC12E0091E666 /* Build configuration list for PBXNativeTarget "URLEncodedFormTests-macOS" */;
+			buildPhases = (
+				EBCB0BB522FEC12E0091E666 /* Sources */,
+				EBCB0BB622FEC12E0091E666 /* Frameworks */,
+				EBCB0BB722FEC12E0091E666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBCB0BC022FEC12E0091E666 /* PBXTargetDependency */,
+			);
+			name = "URLEncodedFormTests-macOS";
+			productName = "URLEncodedFormTests-macOS";
+			productReference = EBCB0BB922FEC12E0091E666 /* URLEncodedFormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		EBA7F91221D85D5D000013C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
+				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = mntone;
 				TargetAttributes = {
@@ -242,6 +332,12 @@
 					};
 					EBA7F92321D85D5D000013C5 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					EBCB0BAC22FEC07E0091E666 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					EBCB0BB822FEC12E0091E666 = {
+						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
@@ -259,6 +355,8 @@
 			targets = (
 				EBA7F91A21D85D5D000013C5 /* URLEncodedForm */,
 				EBA7F92321D85D5D000013C5 /* URLEncodedFormTests */,
+				EBCB0BAC22FEC07E0091E666 /* URLEncodedForm-macOS */,
+				EBCB0BB822FEC12E0091E666 /* URLEncodedFormTests-macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -272,6 +370,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		EBA7F92221D85D5D000013C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCB0BAB22FEC07E0091E666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCB0BB722FEC12E0091E666 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -313,6 +425,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EBCB0BA922FEC07E0091E666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCB0BD422FEC1890091E666 /* URLEncodedFormSerializer.swift in Sources */,
+				EBCB0BCC22FEC1870091E666 /* BasicKey.swift in Sources */,
+				EBCB0BC822FEC1800091E666 /* Byte+Alphabet.swift in Sources */,
+				EBCB0BD522FEC1A20091E666 /* URLEncodedFormError.swift in Sources */,
+				EBCB0BCA22FEC1830091E666 /* URLEncodedFormDecoder.swift in Sources */,
+				EBCB0BCB22FEC1830091E666 /* URLEncodedFormEncoder.swift in Sources */,
+				EBCB0BCF22FEC1870091E666 /* NestedData.swift in Sources */,
+				EBCB0BD022FEC1870091E666 /* String+Utilities.swift in Sources */,
+				EBCB0BD222FEC1890091E666 /* URLEncodedFormDataConvertible.swift in Sources */,
+				EBCB0BCD22FEC1870091E666 /* DataCoders.swift in Sources */,
+				EBCB0BD122FEC1890091E666 /* URLEncodedFormData.swift in Sources */,
+				EBCB0BD322FEC1890091E666 /* URLEncodedFormParser.swift in Sources */,
+				EBCB0BC922FEC1800091E666 /* Byte+ControlCharacters.swift in Sources */,
+				EBCB0BC722FEC1800091E666 /* Aliases.swift in Sources */,
+				EBCB0BCE22FEC1870091E666 /* LosslessDataConvertible.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCB0BB522FEC12E0091E666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCB0BC622FEC1410091E666 /* URLEncodedFormSerializerTests.swift in Sources */,
+				EBCB0BC422FEC1410091E666 /* URLEncodedFormCodableTests.swift in Sources */,
+				EBCB0BC522FEC1410091E666 /* URLEncodedFormParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -320,6 +464,11 @@
 			isa = PBXTargetDependency;
 			target = EBA7F91A21D85D5D000013C5 /* URLEncodedForm */;
 			targetProxy = EBA7F92621D85D5D000013C5 /* PBXContainerItemProxy */;
+		};
+		EBCB0BC022FEC12E0091E666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBCB0BAC22FEC07E0091E666 /* URLEncodedForm-macOS */;
+			targetProxy = EBCB0BBF22FEC12E0091E666 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -534,6 +683,106 @@
 			};
 			name = Release;
 		};
+		EBCB0BB222FEC07E0091E666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G77ZW9XGX2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = URLEncodedForm/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = mntone.URLEncodedForm;
+				PRODUCT_NAME = URLEncodedForm;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		EBCB0BB322FEC07E0091E666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G77ZW9XGX2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = URLEncodedForm/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = mntone.URLEncodedForm;
+				PRODUCT_NAME = URLEncodedForm;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		EBCB0BC222FEC12E0091E666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G77ZW9XGX2;
+				INFOPLIST_FILE = URLEncodedFormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = mntone.URLEncodedFormTests;
+				PRODUCT_NAME = URLEncodedFormTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EBCB0BC322FEC12E0091E666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G77ZW9XGX2;
+				INFOPLIST_FILE = URLEncodedFormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = mntone.URLEncodedFormTests;
+				PRODUCT_NAME = URLEncodedFormTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -560,6 +809,24 @@
 			buildConfigurations = (
 				EBA7F93321D85D5D000013C5 /* Debug */,
 				EBA7F93421D85D5D000013C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBCB0BB422FEC07E0091E666 /* Build configuration list for PBXNativeTarget "URLEncodedForm-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBCB0BB222FEC07E0091E666 /* Debug */,
+				EBCB0BB322FEC07E0091E666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBCB0BC122FEC12E0091E666 /* Build configuration list for PBXNativeTarget "URLEncodedFormTests-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBCB0BC222FEC12E0091E666 /* Debug */,
+				EBCB0BC322FEC12E0091E666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

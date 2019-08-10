@@ -1,3 +1,5 @@
+import struct Foundation.Decimal
+
 /// Capable of converting to / from `URLEncodedFormData`.
 protocol URLEncodedFormDataConvertible {
     /// Converts self to `URLEncodedFormData`.

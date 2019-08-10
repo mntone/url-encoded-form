@@ -1,3 +1,6 @@
+import struct Foundation.CharacterSet
+import struct Foundation.Data
+
 /// Converts `[String: URLEncodedFormData]` structs to `Data`.
 final class URLEncodedFormSerializer {
     /// Default form url encoded serializer.
